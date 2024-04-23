@@ -44,7 +44,7 @@ _G["Fumo Blox Fruit - HoHo Hub Kaitun V3"] = {
     HopServerFarm = true, -- true/false why not?
     StopRaidWhenGetEnoughFrag = 10000, --10k is enough so we will farm faster
     PVP_FARM = true, -- kill player grind exp fast
-    ShowAccountInfo = true, -- an ui with your account information
+    ShowAccountInfo = false, -- an ui with your account information
 }
 
 _G.BypassTeleport = false -- set it true if u wanna fast tp (idk if bug or not)
