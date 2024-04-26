@@ -3,7 +3,7 @@ _G["Fumo Blox Fruit - HoHo Hub Kaitun V3"] = {
     MAIN_UI_COLOR = Color3.fromRGB(255, 165, 0), -- Color3.fromRGB(170, 85, 255)
     
     BlackScreen = false, -- less lag
-    FastMode = true, -- true/false less lag
+    SupperFixLag = true
     AutoRejoinGame = 1800, -- time in second, rejoin to bypass anticheat
     GetFruitInWorld = true, -- true/false collect fruit
     AutoTeam = "Pirate", -- Pirate/Marine
@@ -18,9 +18,9 @@ _G["Fumo Blox Fruit - HoHo Hub Kaitun V3"] = {
         -- put fruit you want like above, recommend fruit can awake
         -- fruit list: 'Sand-Sand','Smoke-Smoke','Ice-Ice','Kilo-Kilo','Diamond-Diamond','Light-Light','Shadow-Shadow','Portal-Portal','Spider-Spider','Gravity-Gravity','Spin-Spin','Revive-Revive','Bird-Bird: Phoenix','Rubber-Rubber','Spring-Spring','Blizzard-Blizzard','Dough-Dough','Bomb-Bomb','Venom-Venom','Bird-Bird: Falcon','Spirit-Spirit','Love-Love','Leopard-Leopard','Dragon-Dragon','Spike-Spike','Magma-Magma','Control-Control','Flame-Flame','Rumble-Rumble','Dark-Dark','Chop-Chop','Quake-Quake','Buddha-Buddha','Barrier-Barrier',"Rocket-Rocket","Sound-Sound","Pain-Pain","Mammoth-Mammoth","Kitsune-Kitsune","T-Rex-T-Rex"
     },
-    BuyBetterFruit = true, --true/false if u alr have fruit but better fruit stock it will buy it
-    EatFruitWhenSea3 = true, --true/false we need to keep fruit before third sea
-    AwakeFruit = true, --true/false awake after a raid
+    BuyBetterFruit = false, --true/false if u alr have fruit but better fruit stock it will buy it
+    EatFruitWhenSea3 = false, --true/false we need to keep fruit before third sea
+    AwakeFruit = false, --true/false awake after a raid
     AutoBuy = {
         Shop_Items = true, --true/false auto buy all item sell with beli like Bisento,... we will buy when max level
         All_Haki = true, --true/false ken,buso,geppo,soru we will buy this in first
