@@ -47,6 +47,6 @@ _G["Fumo Blox Fruit - HoHo Hub Kaitun V3"] = {
     ShowAccountInfo = false, -- an ui with your account information
 }
 
-_G.BypassTeleport = false -- set it true if u wanna fast tp (idk if bug or not)
+_G.BypassTeleport = true, -- set it true if u wanna fast tp (idk if bug or not)
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HohoV2/main/ScriptLoad.lua"))()
